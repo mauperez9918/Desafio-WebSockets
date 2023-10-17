@@ -1,0 +1,92 @@
+[
+  {
+    "id": "6gdkard6b",
+    "title": "Producto 1",
+    "description": "este es un producto prueba",
+    "price": 200,
+    "thumbnail": "sin imagen",
+    "code": "abc1234",
+    "stock": 25
+  },
+  {
+    "id": "vsctl0crh",
+    "title": "Producto 2",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "abc123555",
+    "stock": 2523
+  },
+  {
+    "id": "48q8uxp50",
+    "title": "Producto 3",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "asddsada2424242",
+    "stock": 30
+  },
+  {
+    "id": "hwbai6ehx",
+    "title": "Producto 4",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "asddsa",
+    "stock": 30
+  },
+  {
+    "id": "7jziff8jp",
+    "title": "Producto 5",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "asddsa333333",
+    "stock": 30
+  },
+  {
+    "id": "1om70avrj",
+    "title": "Producto 6",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "asddsa33333355555",
+    "stock": 30
+  },
+  {
+    "id": "kjz3x1ltf",
+    "title": "Producto 7",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "asdd=5",
+    "stock": 30
+  },
+  {
+    "id": "y3mrzeq9i",
+    "title": "Producto 8",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "asdd=5666666666666666666",
+    "stock": 30
+  },
+  {
+    "id": "qqlk3k1jv",
+    "title": "Producto 9",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "aooooooooos",
+    "stock": 30
+  },
+  {
+    "id": "1clfyss28",
+    "title": "Producto 10",
+    "description": "Producto Prueba",
+    "price": 5000,
+    "thumbnail": "asdasd2123",
+    "code": "aooooooooos232323232",
+    "stock": 30
+  }
+]
