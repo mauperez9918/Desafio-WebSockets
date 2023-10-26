@@ -16,9 +16,10 @@ class ProductManager {
     }
   }
 
-  addProduct(title, description, price, thumbnail, code, stock) {
+  addProduct(title, description, price, thumbnail, code, stock, category) {
     this.readJSON();
-    if ((!title, !description, !price, !thumbnail, !code, !stock)) {
+
+    if ((!title, !description, !price, !thumbnail, !code, !stock, !category)) {
       console.log("Debe completar todos los campos para agregar el producto");
     } else {
       const product = {
@@ -29,6 +30,7 @@ class ProductManager {
         thumbnail,
         code,
         stock,
+        category,
       };
 
       const productCode = this.products.find(
@@ -59,7 +61,7 @@ class ProductManager {
     return this.readJSON();
   }
 
-  getProductsById(id) {
+  getProductById(id) {
     this.readJSON();
     const findProduct = this.products.find((product) => product.id === id);
 
@@ -80,8 +82,8 @@ class ProductManager {
       console.log("Producto no encontrado.");
     } else {
       this.products[productIndex] = {
-        ...updatedProduct,
         id: id,
+        ...updatedProduct,
       };
       fs.writeFileSync(
         this.path,
@@ -112,16 +114,5 @@ class ProductManager {
 }
 
 const productInstance = new ProductManager();
-
-productInstance.getProducts();
-
-// productInstance.addProduct(
-//   "Producto 10",
-//   "Producto asdas",
-//   5000,
-//   "asdasd2123",
-//   "aooooooooos232323232",
-//   30
-// );
 
 module.exports = ProductManager;
