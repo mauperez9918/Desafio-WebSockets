@@ -1,114 +1,52 @@
 [
 	{
-		"id": "48q8uxp50",
-		"title": "Producto 3",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "asddsada2424242",
-		"stock": 30
-	},
-	{
-		"id": "hwbai6ehx",
-		"title": "Producto 4",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "asddsa",
-		"stock": 30
-	},
-	{
-		"id": "7jziff8jp",
-		"title": "Producto 5",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "asddsa333333",
-		"stock": 30
-	},
-	{
-		"id": "1om70avrj",
-		"title": "Producto 6",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "asddsa33333355555",
-		"stock": 30
-	},
-	{
-		"id": "kjz3x1ltf",
-		"title": "Producto 7",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "asdd=5",
-		"stock": 30
-	},
-	{
-		"id": "y3mrzeq9i",
-		"title": "Producto 8",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "asdd=5666666666666666666",
-		"stock": 30
-	},
-	{
-		"id": "qqlk3k1jv",
-		"title": "Producto 9",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "aooooooooos",
-		"stock": 30
-	},
-	{
-		"id": "1clfyss28",
-		"title": "Producto 10",
-		"description": "Producto Prueba",
-		"price": 5000,
-		"thumbnail": "asdasd2123",
-		"code": "aooooooooos232323232",
-		"stock": 30
-	},
-	{
-		"id": "7lygj9jis",
-		"title": "Producto prubea para agregar con post",
-		"description": "este es un producto prueba",
-		"price": 200,
+		"id": "r2083jdq0",
+		"title": "producto 1",
+		"description": "producto prueba",
+		"price": 3000,
 		"thumbnail": "sin imagen",
-		"code": "abc12345555555",
-		"stock": 25,
+		"code": "5234",
+		"stock": 5,
 		"category": "cars"
 	},
 	{
-		"id": "cn99eoxi5",
-		"title": "Producto prubea para agregar con post",
-		"description": "este es un producto prueba",
-		"price": 200,
+		"id": "jzwnr3mjc",
+		"title": "producto 2",
+		"description": "producto prueba",
+		"price": 3000,
 		"thumbnail": "sin imagen",
-		"code": "222222222222222222222222",
-		"stock": 25,
+		"code": "5235",
+		"stock": 5,
 		"category": "cars"
 	},
 	{
-		"id": "sny8cul36",
-		"title": "Producto prubea para agregar con post 22222",
-		"description": "este es un producto prueba",
-		"price": 200,
+		"id": "1nuqcdyhz",
+		"title": "producto 3",
+		"description": "producto prueba",
+		"price": 3000,
 		"thumbnail": "sin imagen",
-		"code": "555567800",
-		"stock": 25,
+		"code": "5236",
+		"stock": 5,
 		"category": "cars"
 	},
 	{
-		"id": "zmg720z7m",
-		"title": "Producto prubea para agregar con post 222232",
-		"description": "este es un producto prueba",
-		"price": 200,
+		"id": "cr402j4dl",
+		"title": "producto 4",
+		"description": "producto prueba",
+		"price": 3000,
 		"thumbnail": "sin imagen",
-		"code": "5555678002222",
-		"stock": 25,
+		"code": "5237",
+		"stock": 5,
+		"category": "cars"
+	},
+	{
+		"id": "q3vumyybk",
+		"title": "producto 5",
+		"description": "producto prueba",
+		"price": 3000,
+		"thumbnail": "sin imagen",
+		"code": "5238",
+		"stock": 5,
 		"category": "cars"
 	}
 ]
