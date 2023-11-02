@@ -28,25 +28,5 @@
 		"code": "5236",
 		"stock": 5,
 		"category": "cars"
-	},
-	{
-		"id": "cr402j4dl",
-		"title": "producto 4",
-		"description": "producto prueba",
-		"price": 3000,
-		"thumbnail": "sin imagen",
-		"code": "5237",
-		"stock": 5,
-		"category": "cars"
-	},
-	{
-		"id": "q3vumyybk",
-		"title": "producto 5",
-		"description": "producto prueba",
-		"price": 3000,
-		"thumbnail": "sin imagen",
-		"code": "5238",
-		"stock": 5,
-		"category": "cars"
 	}
 ]
