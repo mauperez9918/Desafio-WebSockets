@@ -13,6 +13,18 @@ const init = (httpServer) => {
     socket.on("deleteProduct", (id) => {
       productInstance.deleteProduct(id);
     });
+
+    socket.on("addProduct", (data) => {
+      productInstance.addProduct(
+        data.title,
+        data.description,
+        data.price,
+        data.thumbnail,
+        data.code,
+        data.stock,
+        data.category
+      );
+    });
   });
 };
 

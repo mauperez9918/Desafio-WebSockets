@@ -2,21 +2,20 @@
 
 <div id="productCard"></div>
 
-<form> 
- <input placeholder="Title"/>
- <input placeholder="Description"/>
-  <input placeholder="Price"/>
-  <input placeholder="Thumbnail"/>
-  <input placeholder="Code"/>
-  <input placeholder="Stock"/>
-  <input placeholder="Category"/>
-  <button>Agregar Producto</button>
-  
+<form id="addProductForm"> 
+ <input placeholder="Title" name="title"/>
+ <input placeholder="Description" name="description"/>
+  <input placeholder="Price" name="price"/>
+  <input placeholder="Thumbnail" name="thumbnail"/>
+  <input placeholder="Code" name="code"/> 
+  <input placeholder="Stock" name="stock"/>
+  <input placeholder="Category" name="category"/>
+  <button type="submit">Agregar Producto</button>
 </form>
 
 <form id="deleteForm" > 
   <input id="inputId" placeholder="id del producto"/>
-  <button type="submit" id="btnDelete">Eliminar Producto</button>
+  <button type="submit">Eliminar Producto</button>
 </form>
 
 <script src="/socket.io/socket.io.js"></script>
