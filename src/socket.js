@@ -12,6 +12,7 @@ const init = (httpServer) => {
 
     socket.on("deleteProduct", (id) => {
       productInstance.deleteProduct(id);
+      socket.emit("getProducts", productInstance.getProducts());
     });
 
     socket.on("addProduct", (data) => {
@@ -24,6 +25,8 @@ const init = (httpServer) => {
         data.stock,
         data.category
       );
+
+      socket.emit("getProducts", productInstance.getProducts());
     });
   });
 };
